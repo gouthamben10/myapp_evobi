@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Switch, Route, Redirect,BrowserRouter } from 'react-router-dom';
 import Picture from "./Picture";
 import { useDrop } from "react-dnd";
 import "../App.css";
