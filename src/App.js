@@ -1,11 +1,14 @@
-
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import MainComponent from './componets/MainComponent';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <h3 className="btn btn-primary">hello world</h3>
+      <MainComponent/>
     </div>
+  </BrowserRouter>
   );
 }
 

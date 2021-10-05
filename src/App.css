@@ -1,17 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -23,16 +9,110 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+  width: 18rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-img-top{
+  height: 180px;
+  width: 280px;
+
+}
+
+
+.wrapper{
+
+  display:flex;
+  overflow-x:auto ;
+}
+
+.wrapper .item{
+ 
+  text-align: center;
+}
+
+.btn-selected {
+  border: 4px solid red;
+}  
+
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.Pictures {
+  margin: 10px;
+  display:flex;
+  overflow-y:auto ;
+}
+.Pictures .item{
+  text-align: center;
+}
+img {
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+ 
+}
+
+.Board {
+  margin-top: 100px;
+
+  width: 541px;
+  height: 341px;
+  border: 0px solid black;
+
+}
+#base{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 541px;
+  height: 541px;
+  background-image: url(https://st.depositphotos.com/1027198/2943/i/950/depositphotos_29436211-stock-photo-pizza-base-with-tomato-sauce.jpg);
+  
+}
+.active, .btn:hover {
+  background-color: pink;;
+  color: white;
+}
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: black;
+  margin:0px auto;
+  padding: 20px 0px 0px 0px;
+}
+.jumbotron {
+  padding:10px 30px 70px 30px;
+  margin:0px auto;
+
+}
+.navbar-dark {
+    background-color: black;
+}
+.imglg{
+  width: fit-content;
+  height: fit-content;
+}
+.btn{
+  border-radius: 10px;
+  border: 0px;
+  background-color: dodgerblue;
+}
+.card{
+  opacity: .9;
 }
