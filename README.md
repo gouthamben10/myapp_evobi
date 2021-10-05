@@ -15,13 +15,14 @@
 
 ## Task Report
 completion status- partialy compelete
-page four is not being rendered.
-page three item slected are not being highlighed.
+pagefour is not being rendered.
+pagethree item selected are not being highlighed.
 Mobile view of the page three is not compeleted.
 
 ### The challenge
 page4-is not being rendered because the props which is present in DragDrop.js cannot sent to MainComponets.js ,where the MainComponets.js routes to the pagefour via router dom.
 page3- due time contraints ,the selected item is not being hightlighted because no form control mechanism,or can be implemented is reducer.
+mobile view: react-dnd cannot be used properly in mobile view 
 ### Links
 
 - Solution URL: [https://github.com/gouthamben10/myapp_evobi](https://github.com/gouthamben10/myapp_evobi)
