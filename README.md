@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Home Project - Customizable Product
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Task Report](#taskreport)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-In the project directory, you can run:
+## Task Report
+completion status- partialy compelete
+page four is not being rendered.
+page three item slected are not being highlighed.
+Mobile view of the page three is not compeleted.
 
-### `yarn start`
+### The challenge
+page4-is not being rendered because the props which is present in DragDrop.js cannot sent to MainComponets.js ,where the MainComponets.js routes to the pagefour via router dom.
+page3- due time contraints ,the selected item is not being hightlighted because no form control mechanism,or can be implemented is reducer.
+### Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Solution URL: [https://github.com/gouthamben10/myapp_evobi](https://github.com/gouthamben10/myapp_evobi)
+- Live Site URL: [https://myapp-evobi2-pu7itbqlf-evobi.vercel.app/](https://myapp-evobi2-pu7itbqlf-evobi.vercel.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## My process
+brute force the basic structure of the application.
+use as many nodemodule as posible.
+### Built with
+- reat-dnd
+- react-dnd-html5-backend
+- react-transtion-group
+- react-router-dom
+- reactstrap
+- Bootstrap
+- bootstrap-social
+- font-awesome
+- CSS custom properties
+- [React](https://reactjs.org/) - JS library
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What I learned
 
-### `yarn build`
+Learn how to brute force project within a given timeframe.
+how to manage time so that each task can be compelted.
+how to dived a give project to its components and make use of it later for easy build.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Continued development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+mobile view is not implemented,so futher editing of code is required for mobile view.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Useful resources
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React-DND](https://react-dnd.github.io/react-dnd/about) - This helped me for draging item from the list and droping it into another section. I really liked this package and will use it going forward.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Linkedin - [Goutham S Krishna](https://www.linkedin.com/in/goutham-s-krishna-21ab151a0/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+This project is done within a time frame of 36 hours.
+I also want thank stackoverflow for providing usefull resources while solving the problem.
+Atlast i want thank God for providing me with the energy.
