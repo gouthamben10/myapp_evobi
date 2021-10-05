@@ -20,7 +20,7 @@ function Product(props) {
                             <div className="card-body">
                             <h5 className="card-title">{product.name}</h5>
                             <p className="card-text">put something here</p>
-                            <ToggleButton
+                            {/* <ToggleButton
                                 className="mb-2"
                                 id="toggle-check"
                                 type="checkbox"
@@ -30,7 +30,7 @@ function Product(props) {
                                 onChange={(e) => setChecked(e.currentTarget.checked)}    
                             >
                                 Checked
-                            </ToggleButton>
+                            </ToggleButton> */}
                             <br/>
                             <button className="btn btn-primary btn-group-toggle  " id="myDIV" onClick={()=>onAdd(product)}>Add</button> 
                             </div>

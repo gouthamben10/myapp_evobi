@@ -5,8 +5,7 @@ function Pagetwo(props) {
     const {products,onAdd} = props;
     return (
         <>
-  
-        <br/>
+        <div className="container">
         <div className="wrapper">
 					
                     {products.map((product) => (
@@ -19,6 +18,9 @@ function Pagetwo(props) {
         <br/>
                 <NavLink className="btn btn-primary btn-lg " to='/pagethree'>Next</NavLink>
 
+        </div>
+        <br/>
+        
         </>
            
         

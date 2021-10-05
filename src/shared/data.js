@@ -10,18 +10,18 @@ const data = {
       },
       {
         id: '2',
-        name: 'Salsa sauce',
+        name: 'onion',
         price: 2400,
-        image: 'assests/images/salsa-sauce.png', 
-        url: 'assests/images/salsa-sauce.png',  
+        image: 'assests/images/pizza_dough_6.png',
+        url: 'assests/images/pizza_dough_6.png',
         qty:0,
       },
       {
         id: '3',
         name: 'Capsicum peppers',
         price: 1000,
-        image: 'https://img.pngio.com/pizza-made-fresh-in-our-store-kum-go-green-pepper-slice-png-600_400.png',
-        url: 'https://img.pngio.com/pizza-made-fresh-in-our-store-kum-go-green-pepper-slice-png-600_400.png',
+        image: 'https://mariopizzaculvercity.com/wp-content/plugins/pizzatime/images/green-peppers.png',
+        url: 'https://mariopizzaculvercity.com/wp-content/plugins/pizzatime/images/green-peppers.png',
         qty:0,
       },
       {
@@ -34,11 +34,12 @@ const data = {
       },
       {
         id: '5',
-        name: 'onion',
+        name: 'Salsa sauce',
         price: 2400,
-        image: 'assests/images/pizza_dough_6.png',
-        url: 'assests/images/pizza_dough_6.png',
+        image: 'assests/images/salsa-sauce.png', 
+        url: 'assests/images/salsa-sauce.png',  
         qty:0,
+        
       },
       {
         id: '6',

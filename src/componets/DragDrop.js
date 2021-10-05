@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Switch, Route, Redirect,BrowserRouter } from 'react-router-dom';
 import Picture from "./Picture";
 import { useDrop } from "react-dnd";
 import "../App.css";
@@ -34,33 +35,40 @@ function DragDrop(props) {
   return (
     <>
       <div className="row">
-        <div className="col-8" id="base">
+        <div className="col-md-8 col-12" id="base">
             <div className="Board" ref={drop}>
                 {board.map((picture) => {
                 return <Picture url={picture.url} id={picture.id}  />;
                 })}
             </div>
         </div>
-        <div className="col-4">
+        <div className="col-md-4 col-12">
                
                 {PictureList.map((picture) => {
                 return (
-                <div className="Pictures">
-                <Picture url={picture.url} id={picture.id}  />
+                <>
+                <div align="left">
+                      {picture.name}
                 </div>
+                  
+                <div className="Pictures">
+
+                    <Picture url={picture.url} id={picture.id} />
+
+                </div>
+                
+                    </>
                 );
                 })}
                  
         </div>
         
       </div>
-      
+      <div className="row">
       <Pagefour board={board} />
+      </div>
       
-      
-      
-       
-      <Link to="pagefour">Next</Link>                  
+                
       
       <NavLink className="btn btn-primary btn-lg " to='/pagefour'>Next</NavLink>
       

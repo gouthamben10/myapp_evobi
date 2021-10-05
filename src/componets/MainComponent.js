@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect,useLocation  } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer'
 import Pageone from './Pageone'
@@ -7,8 +7,9 @@ import Pagetwo from './Pagetwo';
 import Pagethree from './Pagethree';
 import Pagefour from './Pagefour';
 import data from '../shared/data';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 function MainComponent(){
-    
+     const location = useLocation();
    
         const HomePage = () => {
             return(
@@ -30,18 +31,23 @@ function MainComponent(){
         return (
             <>
             <Header />
-            <div className="container">
-
-                <Switch>
+            <TransitionGroup>
+            <CSSTransition key={location.key} classNames="page" timeout={400}>
+            
+                <Switch location={location}>
+                
                     <Route path='/home' component={HomePage} />
                     <Route exact path='/pagetwo' component={() => <Pagetwo onAdd={onAdd} products={products} />} />
                     <Route exact path='/pagethree' component={() => <Pagethree onAdd={onAdd} cartsItems={cartItems} />} />
 
                     <Redirect to="/home" />
+                
+               
                 </Switch>
 
-            </div>
-            <br/>
+            </CSSTransition>
+            </TransitionGroup>
+            
             <Footer/>
             </>
             
